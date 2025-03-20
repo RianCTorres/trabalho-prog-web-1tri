@@ -1,0 +1,13 @@
+body{
+    height: 100vh;
+    background-image: url("img/intro.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+}
+
+.titulo_introducao {
+    color: white;
+}
