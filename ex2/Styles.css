@@ -1,0 +1,15 @@
+body {
+    background-color: black;
+}
+
+.foto {
+    height: 90vh;         /* Altura definida como 95% da altura da tela */
+    width: 55vh;           /* Largura definida como 70% da altura da tela */
+    margin: 2% 5% 0% 15%;
+    border-radius: 20px;
+}
+
+.titulo {
+    color: white;
+    text-align: right;
+}
