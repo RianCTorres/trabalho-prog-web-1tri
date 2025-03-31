@@ -19,6 +19,7 @@ body {
 
 .Nome{
     margin-top: 15%;
+    color: yellow;
 }
 
 .sobre_mim{
@@ -32,6 +33,12 @@ body {
 .imagem_insta{
     height: 40px;
     width: 40px;
+}
+
+.imagem_wpp{
+    height: 45px;
+    width: 45px;
+    margin-left: 3%;
 }
 .imagem_linkedin{
     height: 40px;
