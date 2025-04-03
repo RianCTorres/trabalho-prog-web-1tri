@@ -1,28 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
-    font-family: Arial, Helvetica, sans-serif; /* Define a fonte do texto */
-    margin: 20px; /* Define a margem ao redor do corpo da página */
+    background: #dfdfdf;
 }
 
-ul.site-map {
-    list-style-type: none; /* Remove os marcadores da lista */
-    padding-left: 0; /* Remove o preenchimento à esquerda da lista */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    z-index: 1;
+    background: #222222;
+    overflow-x: hidden;
+    padding-top: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: 0.6s ease;
 }
 
-ul.site-map li {
-    font-size: 18px; /* Define o tamanho da fonte dos itens da lista */
-    margin: 10px 0; /* Define a margem superior e inferior dos itens da lista */
-    text-indent: 0; /* Remove a indentação do texto dos itens da lista */
-    position: relative; /* Define a posição relativa dos itens da lista */
-    padding-left: 20px; /* Define o preenchimento à esquerda dos itens da lista para acomodar os marcadores */
-    transition: all 0.3s ease-in-out; /* Transição suave para o hover */
+.sidebar:hover {
+    width: 250px;
 }
 
-ul.site-map li:hover {
-    background-color: #e0e0e0; /* Adiciona uma cor de fundo ao passar o mouse */
-    border-radius: 3px; /* Borda arredondada */
-    transform: translateX(5px); /* Move o item para a direita */
+.sidebar ul {
+    position: relative;
+    height: 97vh;
 }
 
-ul.site-map ul li {
-    text-indent: 10px; /* Ajusta a indentação do texto dos itens da sublista */
+.sidebar ul li {
+    list-style: none;
+    margin: 5px 15px;
+    transition: 0.3s ease;
+}
+
+.sidebar ul li:hover {
+    background: #03738b;
+}
+
+.sidebar ul li a {
+    position: relative;
+    display: flex;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #fff;
+    text-indent: 10px;
+}
+
+.sidebar ul li a .text {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    font-size: 16px;
+    text-transform: capitalize;
+    letter-spacing: 0.6px;
+    font-weight: 500;
+}
+
+.sidebar h2 {
+    color: #fff;
+    text-align: left;
+    padding: 15px 0 40px 15px;
+}
+
+.content {
+    margin-left: 300px;
+    padding: 30px;
+    flex-grow: 1;
 }
