@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  ul.blog-list {
+    list-style: square inside; /* <- Aqui usamos list-style */
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  ul.blog-list li {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+
+  .post-title {
+    font-size: 1.5em;
+    margin: 0;
+  }
+
+  .post-date {
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 10px;
+  }
+
+  .post-summary {
+    margin: 10px 0;
+  }
+
+  .read-more {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .read-more:hover {
+    text-decoration: underline;
+  }
