@@ -41,3 +41,11 @@ h1 {
   .portfolio-item a:hover {
     color: #007BFF;
   }
+
+  .portfolio-item img {
+    max-height: 80px; /* Limita a altura */
+    width: auto;
+    margin: 10px auto 0; /* Centraliza horizontalmente e dá espaço acima */
+    display: block;
+  }
+  
