@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lista de Tarefas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Lista de Tarefas</h1>
+    <div class="input-group">
+      <input type="text" placeholder="Digite uma nova tarefa" />
+      <button type="button" class="btn add">Adicionar</button>
+    </div>
+    <ul class="tasks">
+      <li class="task">
+        <input type="checkbox" id="t1" />
+        <label for="t1">Estudar JavaScript</label>
+        <div class="actions">
+          <button class="btn edit">Editar</button>
+          <button class="btn delete">Excluir</button>
+        </div>
+      </li>
+      <li class="task completed">
+        <input type="checkbox" id="t2" checked />
+        <label for="t2">Revisar CSS</label>
+        <div class="actions">
+          <button class="btn edit">Editar</button>
+          <button class="btn delete">Excluir</button>
+        </div>
+      </li>
+      <li class="task">
+        <input type="checkbox" id="t3" />
+        <label for="t3">Praticar Flutter, a melhor</label>
+        <div class="actions">
+          <button class="btn edit">Editar</button>
+          <button class="btn delete">Excluir</button>
+        </div>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>
