@@ -32,7 +32,6 @@ header p.lead {
   color: #555;
 }
 
-/* Countdown */
 .countdown {
   display: flex;
   justify-content: center;
@@ -64,7 +63,6 @@ header p.lead {
   }
 }
 
-/* Seção de imagens */
 .gallery {
   display: flex;
   gap: 10px;
@@ -78,7 +76,6 @@ header p.lead {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* Recursos destacados */
 .features {
   padding: 0 20px 40px;
 }
@@ -103,7 +100,6 @@ header p.lead {
   font-size: 1rem;
 }
 
-/* Formulário de pré-venda */
 .preorder {
   background: #f9fafb;
   padding: 40px 20px;
