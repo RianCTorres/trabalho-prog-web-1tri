@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  height: 90vh;
+}
+
+.foto {
+  flex: 1;
+  width: 55vh;
+  margin: 2% 5% 0% 40%;
+  border-radius: 20px;
+}
+
+.titulo {
+  flex: 1;
+  color: white;
+  text-align: center;
+}
+
+.Nome {
+  margin-top: 15%;
+  color: yellow;
+}
+
+.sobre_mim {
+  margin-top: 5%;
+}
+
+.redes_sociais {
+  margin-bottom: 3%;
+}
+
+.imagem_insta {
+  height: 40px;
+  width: 40px;
+}
+
+.imagem_wpp {
+  height: 45px;
+  width: 45px;
+  margin-left: 3%;
+}
+.imagem_linkedin {
+  height: 40px;
+  width: 40px;
+  margin-left: 3%;
+}
+
+.imagem_github {
+  height: 40px;
+  width: 40px;
+  margin-left: 3%;
+}

@@ -1,74 +1,74 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    background: #dfdfdf;
+  background: #dfdfdf;
 }
 
 .sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 250px;
-    z-index: 1;
-    background: #222222;
-    overflow-x: hidden;
-    padding-top: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    transition: 0.6s ease;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 250px;
+  z-index: 1;
+  background: #222222;
+  overflow-x: hidden;
+  padding-top: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: 0.6s ease;
 }
 
 .sidebar:hover {
-    width: 250px;
+  width: 250px;
 }
 
 .sidebar ul {
-    position: relative;
-    height: 97vh;
+  position: relative;
+  height: 97vh;
 }
 
 .sidebar ul li {
-    list-style: none;
-    margin: 5px 15px;
-    transition: 0.3s ease;
+  list-style: none;
+  margin: 5px 15px;
+  transition: 0.3s ease;
 }
 
 .sidebar ul li:hover {
-    background: #03738b;
+  background: #03738b;
 }
 
 .sidebar ul li a {
-    position: relative;
-    display: flex;
-    white-space: nowrap;
-    text-decoration: none;
-    color: #fff;
-    text-indent: 10px;
+  position: relative;
+  display: flex;
+  white-space: nowrap;
+  text-decoration: none;
+  color: #fff;
+  text-indent: 10px;
 }
 
 .sidebar ul li a .text {
-    display: flex;
-    align-items: center;
-    height: 40px;
-    font-size: 16px;
-    text-transform: capitalize;
-    letter-spacing: 0.6px;
-    font-weight: 500;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  font-size: 16px;
+  text-transform: capitalize;
+  letter-spacing: 0.6px;
+  font-weight: 500;
 }
 
 .sidebar h2 {
-    color: #fff;
-    text-align: left;
-    padding: 15px 0 40px 15px;
+  color: #fff;
+  text-align: left;
+  padding: 15px 0 40px 15px;
 }
 
 .content {
-    margin-left: 300px;
-    padding: 30px;
-    flex-grow: 1;
+  margin-left: 300px;
+  padding: 30px;
+  flex-grow: 1;
 }
